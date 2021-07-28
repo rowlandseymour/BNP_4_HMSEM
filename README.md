@@ -25,3 +25,6 @@ This models selects one type as a baseline and then computes the difference betw
 ### Single type model
 The single type model assumes all types are equal and the infection rate only depends on a function of the pair of individuals, e.g. pair-wise distance. This is implemented in R, so provides a user friendly introduction to the inference algorithm. 
 
+### Culling procedures
+The culling code (implemented in R) simulates outbreaks from the posterior predictive distribution of the single type model and can be used to asses a number of ring-culling strategies. The ring culling radius can be specified, as well as the total number of famrs culled per day limited, and times culling starts changed to allow for stochastic take-off. 
+
